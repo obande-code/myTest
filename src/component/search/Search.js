@@ -28,7 +28,7 @@ const Search = () => {
     return (
         <div className="mySearch"> 
             <Form onSubmit ={searchPhotos}>
-                <input type="text" placeholder="Search..." className="searchbar mx-2" value={query} onChange={(e) => setQuery(e.target.value)} />
+                <input type="text" placeholder="Search Photos..." className="searchbar mx-2" value={query} onChange={(e) => setQuery(e.target.value)} />
             </Form>
             {
                 photos.map(photo =>(

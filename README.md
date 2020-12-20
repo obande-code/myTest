@@ -1,72 +1,22 @@
-# Getting Started with Create React App
+Here is a little documentation of what this app does.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is just a replica of an aspect of the MTN website. The search bar allows you to search for photos, using the Unsplash API, on searching for a photo an alert pops showing the site is functional and you can retrieve the data in the console.
 
-## Available Scripts
+After careful analysis of the design given to me to implement, I concluded to create components for the design to allow me to easily implement what I want.
 
-In the project directory, you can run:
+I went ahead to create the react boilerplate with npx create-react-app, I went ahead to clean up the react app before starting the project
 
-### `npm start`
+I then created the different component folders that I would be needing and also imported all needed images and colors style for the task at hand.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+All dependencies and CDN were installed and imported
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+I went ahead to work on the components I have at hand starting from the Navbar, Main content, and the footer
 
-### `npm test`
+I created the search input field as a component on its own and used it in the navbar, to allow me to consume the Unsplash API. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To consume the Unsplash API I created an account to have an access key which will enable me to query the photos on their website.
 
-### `npm run build`
+I used the react hooks for the consumption of the API because it gives me a short and concise code to work with. useState was used to declare and code the empty array. Hooks allow for short and clean code.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
+The result of the search query is found in the console and shows a pop-up alert indicating a functional query API.
 
