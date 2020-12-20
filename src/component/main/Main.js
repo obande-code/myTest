@@ -8,7 +8,7 @@ const Main = () => {
         <>
         <div className="main">
             <div className="back-button">
-            <Button variant="warning"><i class="fas fa-chevron-left" style={{marginRight:'5px'}}></i>Back</Button>{' '}
+            <Button variant="warning"><i className="fas fa-chevron-left" style={{marginRight:'5px'}}></i>Back</Button>{' '}
             </div>
             <div className="hero-content">
             <h3 className="contact"> Contact</h3>
