@@ -1,0 +1,31 @@
+.topbar{
+  background-color:#ffcc00 !important;
+  color: black !important;
+  font-weight: 700 !important;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100% !important;
+  
+}
+.nav-link{
+    color:  #001300 !important;
+}
+
+@media only screen and (max-width:1024px){
+  .topbar{
+    background-color:#ffcc00 !important;
+    color: black !important;
+    font-weight: 400 !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100% !important;
+    overflow: hidden;
+    
+  }
+  .nav-link{
+    color:  #001300 !important;
+    font-size: 14px !important;
+}
+}

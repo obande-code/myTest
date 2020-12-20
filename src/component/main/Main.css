@@ -1,0 +1,130 @@
+.main{
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+      ),url('../../assets/hero.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    color: white;
+   border-radius: 0 0 800% 800%/0 0 100% 100%;
+   overflow: hidden;
+   
+}
+
+.hero-content{
+    margin: 200px 120px;
+}
+
+.hero-content .contact{
+    font-size: 24px;
+}
+.hero-content .mtn{
+    font-size: 72px;
+    margin-top: -5px;
+}
+
+.back-button{
+    margin: 20px;
+}
+.back-button button{
+    width: 80px;
+    height: 35px;
+    color:#001300;
+    background-color: #ffcc00;
+    border-radius: 50px;
+    font-weight: 700;
+}
+
+.back-button button:hover{
+    background-color: #fce071;
+}
+
+.section-2{
+    margin-top: 30px;
+}
+
+.section-2-cont h3{
+    color: #212529;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.section-2-cont p{
+    color: #212529;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.card-shape{
+    border-radius: 15px !important;
+    border: 2px solid rgb(233, 230, 230) ;
+    margin-bottom: 80px;
+}
+
+.card-shape:hover{
+    -webkit-box-shadow: 10px 10px 5px -5px rgba(201,199,201,1);
+    -moz-box-shadow: 10px 10px 5px -5px rgba(201,199,201,1);
+    box-shadow: 10px 10px 5px -5px rgba(201,199,201,1);
+}
+
+.cardb{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.supplier{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    background-image: url(../../assets/Subtract4.svg);
+    background-repeat: no-repeat;
+    
+      
+}
+
+.supplier-content{
+   margin-top: 120px; 
+}
+
+@media only screen and (max-width:600px){
+    
+    .main{
+        background: linear-gradient(
+            rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)
+          ),url('../../assets/hero.jpeg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        width: 100%;
+        height: 500px;
+        color: white;
+       border-radius: 0 0 800% 800%/0 0 100% 100%;
+       
+       
+    }
+}
+
+@media only screen and (max-width:780px){
+    .supplier{
+        width: 100%;
+        height: 400px;
+        background-color: #F2F2F2;
+             
+    }
+
+}
+
+
+@media only screen and (max-width:1024px){
+    .hero-content .mtn{
+        font-size: 48px;
+        margin-top: -5px;
+    }
+
+}

@@ -1,0 +1,122 @@
+.footer{
+    background-image: url(../../assets/Subtract23.svg);
+    width: 100%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.personal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+li .personal1{
+    color: #ffffff !important;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+li .personal1:hover{
+    color:gray !important;
+}
+
+ul{
+   list-style: none;
+   
+}
+
+li .others{
+    color: #ffffff !important;
+}
+
+li .others:hover{
+    color: gray !important;
+}
+
+.test{
+    color: #ffffff;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0 20px 40px;
+}
+
+.icons:hover{
+    color: #ffcc00 !important;
+    cursor: pointer !important;
+}
+
+.twitter, .linkdin, .youtube, .instagram{
+    margin-left: 25px;
+}
+
+.twitter i:hover{
+    color: #ffcc00 !important;
+}
+
+.facebook i:hover{
+    color: #ffcc00 !important;
+}
+
+.linkdin i:hover{
+    color: #ffcc00 !important;
+}
+
+.youtube i:hover{
+    color: #ffcc00 !important;
+}
+
+.instagram i:hover{
+    color: #ffcc00 !important;
+}
+
+.form-control{
+    width: 50% !important;
+    border-radius: 50px !important;
+    background-color: #000000;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    padding-left: 20px;
+}
+
+.copy{
+    margin: 20px 40px;
+}
+.copy p{
+    color: gray;
+    font-size: 14px;
+}
+
+@media only screen and (max-width:600px){
+
+    .footer{
+    background-color: #000000;
+    width: 100%;
+   
+}
+.form-control{
+    width: 50% !important;
+    border-radius: 50px !important;
+    background-color: #000000;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    padding-left: 20px;
+    margin-left: 40px !important;
+}
+
+
+
+}
+
+@media only screen and (max-width:780px){
+    .footer{
+        background-color: #000000;
+        width: 100%;
+    }
+}
+

@@ -1,0 +1,32 @@
+.searchbar{
+    border: 2px solid #000000;
+    border-radius: 50px;
+    background-color: #ffcc00;
+    width: 200px !important;
+    height: 35px !important;
+    padding: 10px 10px 10px 30px;
+}
+
+.searchbar:focus{
+    outline: #000000;
+}
+
+@media only screen and (max-width:600px){
+    .searchbar{
+        margin-left: 210px !important;
+    }
+}
+
+@media only screen and (max-width:1024px){
+    .searchbar{
+        border: 2px solid #000000;
+        border-radius: 50px;
+        background-color: #ffcc00;
+        width: 200px !important;
+        height: 35px !important;
+        margin-top: 100px !important;
+        position: relative;
+        left: -200px;
+        padding: 10px 10px 10px 30px;
+    }
+}
